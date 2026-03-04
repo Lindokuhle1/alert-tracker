@@ -1,0 +1,988 @@
+2026-02-12 09:00:36,191 - __main__ - INFO - ============================================================
+2026-02-12 09:00:36,191 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-12 09:00:36,191 - __main__ - INFO - ============================================================
+2026-02-12 09:00:36,235 - db - INFO - Added IsCritical column to Alerts table
+2026-02-12 09:00:36,236 - db - INFO - Database schema initialized successfully
+2026-02-12 09:00:36,236 - db - INFO - Database initialized at battery_alerts.db
+2026-02-12 09:00:37,242 - ui - INFO - UI initialized
+2026-02-12 09:00:37,424 - __main__ - INFO - Application initialized successfully
+2026-02-12 09:00:37,424 - __main__ - INFO - Starting UI main loop
+2026-02-12 09:02:32,769 - db - INFO - Created new alert 1: 91K46WT3007 - Cell voltage above 3.60V!
+2026-02-12 09:02:44,506 - db - INFO - Marked alert 1 as critical
+2026-02-12 09:02:54,831 - db - INFO - Marked alert 1 as critical
+2026-02-12 09:03:43,371 - db - INFO - Created new alert 2: 91K46WT3007 - Cell Voltage above 3.60V!
+2026-02-12 09:04:43,498 - db - INFO - Updated alert 1: 91K46WT3007 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 09:05:29,486 - db - INFO - Updated alert 1: 91K46WT3007 - Cell voltage above 3.60V! (Count: 3)
+2026-02-12 09:10:23,198 - db - INFO - Created new alert 3: 320300258 - Cell voltage above 3.60V!
+2026-02-12 09:10:37,925 - db - INFO - Updated alert 3: 320300258 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 09:11:32,597 - db - INFO - Updated notes for alert 3
+2026-02-12 09:12:47,825 - db - INFO - Created new alert 4: 91I40B25001 - Cell voltage above 3.60V!
+2026-02-12 09:12:53,748 - db - INFO - Updated alert 4: 91I40B25001 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 09:13:07,524 - db - INFO - Marked alert 4 as critical
+2026-02-12 09:16:30,569 - db - INFO - Created new alert 5: 91I40B25004 - Cell voltage above 3.60V!
+2026-02-12 09:16:41,355 - db - INFO - Updated alert 5: 91I40B25004 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 09:16:59,847 - db - INFO - Marked alert 5 as critical
+2026-02-12 09:22:08,499 - db - INFO - Created new alert 6: 22E20P20002 - Cell voltage bellow 2.55V!
+2026-02-12 09:22:11,439 - db - INFO - Updated alert 6: 22E20P20002 - Cell voltage bellow 2.55V! (Count: 2)
+2026-02-12 09:48:50,188 - db - INFO - Created new alert 7: 22A05ESR008 - Cell voltage above 3.60V!
+2026-02-12 09:48:56,722 - db - INFO - Updated alert 7: 22A05ESR008 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 10:09:10,037 - db - INFO - Created new alert 8: 02E21B30002 - Cell voltage above 3.60V and bellow 2.6V
+2026-02-12 10:09:21,158 - db - INFO - Updated alert 8: 02E21B30002 - Cell voltage above 3.60V and bellow 2.6V (Count: 2)
+2026-02-12 10:11:42,862 - db - INFO - Created new alert 9: 91I40B25004 - Cell voltage above 3.60V
+2026-02-12 10:11:47,261 - db - INFO - Updated alert 9: 91I40B25004 - Cell voltage above 3.60V (Count: 2)
+2026-02-12 10:13:27,693 - db - INFO - Created new alert 10: 320300436 - Cell bellow 2.6V!
+2026-02-12 10:34:32,443 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-12 10:34:32,451 - telegram_listener - INFO - Telegram listener thread started
+2026-02-12 10:34:32,619 - telegram_listener - INFO - Telegram status: Connecting...
+2026-02-12 10:34:32,625 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-02-12 10:34:34,407 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-02-12 10:34:35,261 - telegram_listener - INFO - Telegram status: Sending code request...
+2026-02-12 10:34:35,468 - telethon.client.users - INFO - Phone migrated to 4
+2026-02-12 10:34:35,469 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2026-02-12 10:34:35,677 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-02-12 10:34:35,679 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-02-12 10:34:35,679 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-12 10:34:37,399 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-12 10:34:38,576 - telegram_listener - ERROR - Authentication error: Authentication required. Please run authentication separately or provide code input mechanism.
+2026-02-12 10:34:38,588 - telegram_listener - INFO - Telegram status: Auth error: Authentication required. Please run authentication separately or provide code input mechanism.
+2026-02-12 10:34:38,616 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-12 10:35:47,958 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-12 10:35:47,971 - telegram_listener - INFO - Telegram listener thread started
+2026-02-12 10:35:48,007 - telegram_listener - INFO - Telegram status: Connecting...
+2026-02-12 10:35:48,008 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-12 10:35:48,210 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-12 10:35:49,107 - telegram_listener - INFO - Telegram status: Sending code request...
+2026-02-12 10:35:49,324 - telegram_listener - ERROR - Authentication error: Authentication required. Please run authentication separately or provide code input mechanism.
+2026-02-12 10:35:49,352 - telegram_listener - INFO - Telegram status: Auth error: Authentication required. Please run authentication separately or provide code input mechanism.
+2026-02-12 10:35:49,365 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-12 10:39:32,041 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 10:39:32,054 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-8' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-12 10:39:32,055 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 10:39:32,055 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 10:39:32,056 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 10:39:32,065 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-12 10:39:32,065 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 10:39:32,077 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-12 10:39:32,078 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-13' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-02-12 10:45:34,930 - __main__ - INFO - ============================================================
+2026-02-12 10:45:34,931 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-12 10:45:34,932 - __main__ - INFO - ============================================================
+2026-02-12 10:45:34,934 - db - INFO - Database schema initialized successfully
+2026-02-12 10:45:34,934 - db - INFO - Database initialized at battery_alerts.db
+2026-02-12 10:45:35,702 - ui - INFO - UI initialized
+2026-02-12 10:45:35,920 - __main__ - INFO - Application initialized successfully
+2026-02-12 10:45:35,921 - __main__ - INFO - Starting UI main loop
+2026-02-12 10:51:12,930 - db - INFO - Created new alert 11: 420900553 - Cell voltage above 3.60V!
+2026-02-12 10:51:18,963 - db - INFO - Updated alert 11: 420900553 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 10:53:56,407 - db - INFO - Updated alert 11: 420900553 - Cell voltage above 3.60V! (Count: 3)
+2026-02-12 10:54:05,952 - db - INFO - Updated alert 11: 420900553 - Cell voltage above 3.60V! (Count: 4)
+2026-02-12 10:55:10,143 - db - INFO - Created new alert 12: 91L40B25004 - Cell voltage above 3.60V!
+2026-02-12 10:56:02,036 - db - INFO - Updated alert 12: 91L40B25004 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 10:58:05,117 - db - INFO - Created new alert 13: 520100117 - Cell voltage above 3.60V!
+2026-02-12 10:58:27,786 - db - INFO - Updated alert 13: 520100117 - Cell voltage above 3.60V! (Count: 2)
+2026-02-12 11:02:18,312 - db - INFO - Created new alert 14: 12K45B18S001 - Cell voltage bellow 2.60V!
+2026-02-12 11:03:08,032 - db - INFO - Created new alert 15: 12K45B18S001 - Cell voltage bellow 2.50V!
+2026-02-12 11:04:18,108 - db - INFO - Unarchived alert 14
+2026-02-12 11:04:57,350 - __main__ - INFO - Exported 15 alerts to C:/Users/lindo/Downloads/battery_alerts_20260212_110448.xlsx
+2026-02-12 11:06:26,201 - db - INFO - Marked alert 10 as critical
+2026-02-12 11:06:55,622 - db - INFO - Marked alert 6 as critical
+2026-02-12 11:07:08,164 - db - INFO - Marked alert 3 as critical
+2026-02-12 11:07:28,102 - __main__ - INFO - Exported 15 alerts to C:/Users/lindo/Downloads/battery_alerts_20260212_110723.xlsx
+2026-02-12 11:27:57,392 - __main__ - INFO - ============================================================
+2026-02-12 11:27:57,392 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-12 11:27:57,393 - __main__ - INFO - ============================================================
+2026-02-12 11:27:57,395 - db - INFO - Database schema initialized successfully
+2026-02-12 11:27:57,396 - db - INFO - Database initialized at battery_alerts.db
+2026-02-12 11:27:58,513 - ui - INFO - UI initialized
+2026-02-12 11:27:58,736 - __main__ - INFO - Application initialized successfully
+2026-02-12 11:27:58,736 - __main__ - INFO - Starting UI main loop
+2026-02-12 11:29:16,230 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-12 11:29:16,242 - telegram_listener - INFO - Telegram listener thread started
+2026-02-12 11:29:16,362 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-12 11:29:16,363 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-12 11:29:16,544 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-12 11:29:17,428 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-12 11:29:18,190 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-12 11:29:18,191 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-12 11:30:03,185 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-12 11:30:03,186 - telegram_listener - INFO - Telegram listener thread started
+2026-02-12 11:30:03,216 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-12 11:30:03,217 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-12 11:30:03,408 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-12 11:30:04,474 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-12 11:30:04,702 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-12 11:30:04,703 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-12 11:30:25,637 - __main__ - ERROR - Error getting OTP from user: window ".!_querystring2" was deleted before its visibility changed
+2026-02-12 11:30:25,638 - telegram_listener - ERROR - No OTP provided by user
+2026-02-12 11:30:25,652 - telegram_listener - INFO - Telegram status: Authentication cancelled - no code provided
+2026-02-12 11:30:25,653 - telegram_listener - ERROR - Authentication failed, stopping client
+2026-02-12 11:30:25,678 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-12 11:30:25,679 - telegram_listener - INFO - Telegram client stopped
+2026-02-12 11:30:25,679 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-12 11:30:37,167 - __main__ - ERROR - Error getting OTP from user: window ".!_querystring" was deleted before its visibility changed
+2026-02-12 11:30:37,167 - telegram_listener - ERROR - No OTP provided by user
+2026-02-12 11:30:37,187 - telegram_listener - INFO - Telegram status: Authentication cancelled - no code provided
+2026-02-12 11:30:37,188 - telegram_listener - ERROR - Authentication failed, stopping client
+2026-02-12 11:30:37,240 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-12 11:30:37,240 - telegram_listener - INFO - Telegram client stopped
+2026-02-12 11:30:37,241 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-12 11:31:17,192 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-12 11:31:17,193 - telegram_listener - INFO - Telegram listener thread started
+2026-02-12 11:31:17,221 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-12 11:31:17,222 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-12 11:31:17,401 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-12 11:31:18,226 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-12 11:31:18,507 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-12 11:31:18,508 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-12 11:31:41,441 - __main__ - ERROR - Error getting OTP from user: window ".!_querystring3" was deleted before its visibility changed
+2026-02-12 11:31:41,441 - telegram_listener - ERROR - No OTP provided by user
+2026-02-12 11:31:41,486 - telegram_listener - INFO - Telegram status: Authentication cancelled - no code provided
+2026-02-12 11:31:41,487 - telegram_listener - ERROR - Authentication failed, stopping client
+2026-02-12 11:31:41,504 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-12 11:31:41,504 - telegram_listener - INFO - Telegram client stopped
+2026-02-12 11:31:41,505 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-12 11:32:19,185 - __main__ - INFO - Application shutting down...
+2026-02-12 11:32:19,185 - telegram_listener - ERROR - Error stopping Telegram: There is no current event loop in thread 'MainThread'.
+2026-02-12 11:32:19,199 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-12 11:32:19,200 - db - INFO - Database connection closed
+2026-02-12 11:32:19,200 - __main__ - INFO - Shutdown complete
+2026-02-12 11:32:19,461 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,472 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-2' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,473 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 11:32:19,473 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 11:32:19,474 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,484 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,485 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,499 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,499 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,500 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,503 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,503 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 11:32:19,504 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 11:32:19,505 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,513 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,514 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,522 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-13' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,523 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-14' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-02-12 11:32:19,524 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,526 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-16' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,527 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-17' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 11:32:19,527 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-18' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-12 11:32:19,528 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,535 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-19' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,536 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-12 11:32:19,549 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-20' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-12 11:32:19,549 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-21' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-02-13 08:23:49,541 - __main__ - INFO - ============================================================
+2026-02-13 08:23:49,543 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-13 08:23:49,543 - __main__ - INFO - ============================================================
+2026-02-13 08:23:49,557 - db - INFO - Database schema initialized successfully
+2026-02-13 08:23:49,558 - db - INFO - Database initialized at battery_alerts.db
+2026-02-13 08:23:50,617 - ui - INFO - UI initialized
+2026-02-13 08:23:50,759 - __main__ - INFO - Application initialized successfully
+2026-02-13 08:23:50,760 - __main__ - INFO - Starting UI main loop
+2026-02-13 08:24:11,600 - __main__ - INFO - Application shutting down...
+2026-02-13 08:24:11,613 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-13 08:24:11,614 - db - INFO - Database connection closed
+2026-02-13 08:24:11,614 - __main__ - INFO - Shutdown complete
+2026-02-13 09:28:09,627 - __main__ - INFO - ============================================================
+2026-02-13 09:28:09,628 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-13 09:28:09,628 - __main__ - INFO - ============================================================
+2026-02-13 09:28:09,633 - db - INFO - Database schema initialized successfully
+2026-02-13 09:28:09,633 - db - INFO - Database initialized at battery_alerts.db
+2026-02-13 09:28:10,960 - ui - INFO - UI initialized
+2026-02-13 09:28:11,074 - __main__ - INFO - Application initialized successfully
+2026-02-13 09:28:11,075 - __main__ - INFO - Starting UI main loop
+2026-02-13 09:32:32,537 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-13 09:32:32,538 - telegram_listener - INFO - Telegram listener thread started
+2026-02-13 09:32:32,755 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-13 09:32:32,755 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-13 09:32:32,939 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-13 09:32:34,052 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-13 09:32:34,315 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-13 09:32:34,315 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-13 09:32:55,975 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-13 09:32:55,976 - telegram_listener - INFO - Telegram listener thread started
+2026-02-13 09:32:55,996 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-13 09:32:55,997 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-13 09:32:56,371 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-13 09:32:57,671 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-13 09:32:57,978 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-13 09:32:57,979 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-13 09:33:20,857 - __main__ - ERROR - Error getting OTP from user: window ".!_querystring2" was deleted before its visibility changed
+2026-02-13 09:33:20,857 - telegram_listener - ERROR - No OTP provided by user
+2026-02-13 09:33:20,871 - telegram_listener - INFO - Telegram status: Authentication cancelled - no code provided
+2026-02-13 09:33:20,871 - telegram_listener - ERROR - Authentication failed, stopping client
+2026-02-13 09:33:20,883 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-13 09:33:20,883 - telegram_listener - INFO - Telegram client stopped
+2026-02-13 09:33:20,884 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-13 09:33:25,077 - __main__ - ERROR - Error getting OTP from user: window ".!_querystring" was deleted before its visibility changed
+2026-02-13 09:33:25,077 - telegram_listener - ERROR - No OTP provided by user
+2026-02-13 09:33:25,092 - telegram_listener - INFO - Telegram status: Authentication cancelled - no code provided
+2026-02-13 09:33:25,093 - telegram_listener - ERROR - Authentication failed, stopping client
+2026-02-13 09:33:25,114 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-13 09:33:25,114 - telegram_listener - INFO - Telegram client stopped
+2026-02-13 09:33:25,114 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-13 09:45:03,625 - __main__ - INFO - Application shutting down...
+2026-02-13 09:45:03,625 - telegram_listener - ERROR - Error stopping Telegram: There is no current event loop in thread 'MainThread'.
+2026-02-13 09:45:03,676 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-13 09:45:03,677 - db - INFO - Database connection closed
+2026-02-13 09:45:03,677 - __main__ - INFO - Shutdown complete
+2026-02-13 09:45:04,050 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-13 09:45:04,067 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-2' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-13 09:45:04,068 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-13 09:45:04,069 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-13 09:45:04,072 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-13 09:45:04,112 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-13 09:45:04,113 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-13 09:45:04,140 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-13 09:45:04,141 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-02-13 09:45:04,144 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-13 09:45:04,152 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-9' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-13 09:45:04,153 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-13 09:45:04,155 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-13 09:45:04,156 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-13 09:45:04,177 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-12' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-13 09:45:04,178 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-13 09:45:04,207 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-13' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-13 09:45:04,208 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-14' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-02-16 08:26:55,562 - __main__ - INFO - ============================================================
+2026-02-16 08:26:55,564 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-16 08:26:55,565 - __main__ - INFO - ============================================================
+2026-02-16 08:26:55,580 - db - INFO - Database schema initialized successfully
+2026-02-16 08:26:55,580 - db - INFO - Database initialized at battery_alerts.db
+2026-02-16 08:26:56,558 - ui - INFO - UI initialized
+2026-02-16 08:26:56,649 - __main__ - INFO - Application initialized successfully
+2026-02-16 08:26:56,650 - __main__ - INFO - Starting UI main loop
+2026-02-16 08:30:04,811 - db - INFO - Created new alert 16: 420900553 - Cell voltage above 3.60!
+2026-02-16 08:30:14,420 - db - INFO - Updated alert 16: 420900553 - Cell voltage above 3.60! (Count: 2)
+2026-02-16 13:24:51,142 - db - INFO - Updated alert 10: 320300436 - Cell bellow 2.6V! (Count: 2)
+2026-02-16 13:58:20,620 - __main__ - INFO - Application shutting down...
+2026-02-16 13:58:20,640 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-16 13:58:20,658 - db - INFO - Database connection closed
+2026-02-16 13:58:20,659 - __main__ - INFO - Shutdown complete
+2026-02-26 06:44:01,746 - __main__ - INFO - ============================================================
+2026-02-26 06:44:01,747 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 06:44:01,747 - __main__ - INFO - ============================================================
+2026-02-26 06:44:01,761 - db - INFO - Database schema initialized successfully
+2026-02-26 06:44:01,761 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 06:44:03,104 - ui - INFO - UI initialized
+2026-02-26 06:44:03,417 - __main__ - INFO - Application initialized successfully
+2026-02-26 06:44:03,417 - __main__ - INFO - Starting UI main loop
+2026-02-26 06:50:21,353 - db - INFO - Updated alert 12: 91L40B25004 - Cell voltage above 3.60V! (Count: 3)
+2026-02-26 06:51:19,422 - db - INFO - Updated alert 12: 91L40B25004 - Cell voltage above 3.60V! (Count: 4)
+2026-02-26 07:11:18,766 - db - INFO - Updated alert 4: 91I40B25001 - Cell voltage above 3.60V! (Count: 3)
+2026-02-26 07:11:27,898 - db - INFO - Updated alert 4: 91I40B25001 - Cell voltage above 3.60V! (Count: 4)
+2026-02-26 07:36:26,185 - db - INFO - Created new alert 17: 12C12B20001 - Cell voltage below 2.55V!
+2026-02-26 07:36:50,634 - db - INFO - Marked alert 17 as critical
+2026-02-26 07:40:15,340 - db - INFO - Updated alert 5: 91I40B25004 - Cell voltage above 3.60V! (Count: 3)
+2026-02-26 07:40:18,489 - db - INFO - Updated alert 5: 91I40B25004 - Cell voltage above 3.60V! (Count: 4)
+2026-02-26 08:07:22,157 - db - INFO - Created new alert 18: 02E21B30002 - Cell voltage below 2.55V!
+2026-02-26 08:07:26,686 - db - INFO - Updated alert 18: 02E21B30002 - Cell voltage below 2.55V! (Count: 2)
+2026-02-26 10:30:00,798 - db - INFO - Created new alert 19: 12K45B18S001 - Cell voltage below 2.55V!
+2026-02-26 10:30:06,874 - db - INFO - Updated alert 19: 12K45B18S001 - Cell voltage below 2.55V! (Count: 2)
+2026-02-26 10:30:17,344 - db - INFO - Marked alert 19 as critical
+2026-02-26 10:31:11,255 - db - INFO - Updated alert 17: 12C12B20001 - Cell voltage below 2.55V! (Count: 2)
+2026-02-26 10:31:29,858 - db - INFO - Updated alert 17: 12C12B20001 - Cell voltage below 2.55V! (Count: 3)
+2026-02-26 10:39:55,361 - __main__ - INFO - Exported 19 alerts to C:/Users/lindo/OneDrive/Documents/battery_alerts_20260226_103947.xlsx
+2026-02-26 10:41:10,710 - __main__ - INFO - Exported 19 alerts to C:/Users/lindo/OneDrive/Documents/battery_alerts_20260226_104031.xlsx
+2026-02-26 11:09:57,242 - __main__ - INFO - Application shutting down...
+2026-02-26 11:09:57,273 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-26 11:09:57,289 - db - INFO - Database connection closed
+2026-02-26 11:09:57,290 - __main__ - INFO - Shutdown complete
+2026-02-26 11:46:35,093 - __main__ - INFO - ============================================================
+2026-02-26 11:46:35,095 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 11:46:35,095 - __main__ - INFO - ============================================================
+2026-02-26 11:46:35,109 - db - INFO - Database schema initialized successfully
+2026-02-26 11:46:35,109 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 11:46:36,568 - ui - INFO - UI initialized
+2026-02-26 11:46:37,062 - __main__ - INFO - Application initialized successfully
+2026-02-26 11:46:37,062 - __main__ - INFO - Starting UI main loop
+2026-02-26 12:27:04,921 - __main__ - INFO - Application shutting down...
+2026-02-26 12:27:04,952 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-26 12:27:04,956 - db - INFO - Database connection closed
+2026-02-26 12:27:04,956 - __main__ - INFO - Shutdown complete
+2026-02-26 12:36:40,908 - __main__ - INFO - ============================================================
+2026-02-26 12:36:40,908 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 12:36:40,908 - __main__ - INFO - ============================================================
+2026-02-26 12:36:40,917 - db - INFO - Added Priority column to Alerts table
+2026-02-26 12:36:40,917 - db - INFO - Database schema initialized successfully
+2026-02-26 12:36:40,917 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 12:36:42,592 - ui - INFO - UI initialized
+2026-02-26 12:36:43,067 - __main__ - INFO - Application initialized successfully
+2026-02-26 12:36:43,067 - __main__ - INFO - Starting UI main loop
+2026-02-26 12:38:28,698 - main - INFO - ============================================================
+2026-02-26 12:38:28,698 - main - INFO - Battery Alert Manager Starting
+2026-02-26 12:38:28,699 - main - INFO - ============================================================
+2026-02-26 12:38:28,700 - db - INFO - Database schema initialized successfully
+2026-02-26 12:38:28,700 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 12:38:29,918 - ui - INFO - UI initialized
+2026-02-26 12:38:30,116 - main - INFO - Application initialized successfully
+2026-02-26 12:38:30,132 - db - INFO - Created new alert 20: SN100 - FaultX
+2026-02-26 12:38:37,030 - db - INFO - Created new alert 21: SN101 - FaultY
+2026-02-26 12:38:39,464 - main - INFO - Exported 21 alerts to C:\Users\lindo\AppData\Local\Temp\test_export.xlsx
+2026-02-26 12:38:46,729 - __main__ - INFO - ============================================================
+2026-02-26 12:38:46,730 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 12:38:46,730 - __main__ - INFO - ============================================================
+2026-02-26 12:38:46,731 - db - INFO - Database schema initialized successfully
+2026-02-26 12:38:46,732 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 12:38:47,659 - ui - INFO - UI initialized
+2026-02-26 12:38:48,056 - __main__ - INFO - Application initialized successfully
+2026-02-26 12:38:48,057 - __main__ - INFO - Starting UI main loop
+2026-02-26 12:41:00,013 - __main__ - INFO - Exported 21 alerts to C:/Users/lindo/Downloads/battery_alerts_20260226_124049.xlsx
+2026-02-26 12:44:49,828 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-26 12:44:49,841 - telegram_listener - INFO - Telegram listener thread started
+2026-02-26 12:44:50,124 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-26 12:44:50,125 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-26 12:44:50,321 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-26 12:44:51,294 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-26 12:44:51,645 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-26 12:44:51,645 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-26 12:48:15,580 - main - INFO - ============================================================
+2026-02-26 12:48:15,580 - main - INFO - Battery Alert Manager Starting
+2026-02-26 12:48:15,580 - main - INFO - ============================================================
+2026-02-26 12:48:15,593 - db - INFO - Database schema initialized successfully
+2026-02-26 12:48:15,593 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 12:48:16,884 - ui - INFO - UI initialized
+2026-02-26 12:48:17,081 - main - INFO - Application initialized successfully
+2026-02-26 12:48:46,681 - __main__ - ERROR - Error getting OTP from user: window ".!_querystring" was deleted before its visibility changed
+2026-02-26 12:48:46,682 - telegram_listener - ERROR - No OTP provided by user
+2026-02-26 12:48:46,741 - telegram_listener - INFO - Telegram status: Authentication cancelled - no code provided
+2026-02-26 12:48:46,741 - telegram_listener - ERROR - Authentication failed, stopping client
+2026-02-26 12:48:46,780 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-26 12:48:46,780 - telegram_listener - INFO - Telegram client stopped
+2026-02-26 12:48:46,781 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-26 12:49:26,042 - __main__ - INFO - ============================================================
+2026-02-26 12:49:26,042 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 12:49:26,042 - __main__ - INFO - ============================================================
+2026-02-26 12:49:26,044 - db - INFO - Database schema initialized successfully
+2026-02-26 12:49:26,045 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 12:49:26,868 - ui - INFO - UI initialized
+2026-02-26 12:49:27,078 - __main__ - INFO - Application initialized successfully
+2026-02-26 12:49:27,078 - __main__ - INFO - Starting UI main loop
+2026-02-26 12:52:06,822 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-26 12:52:06,823 - telegram_listener - INFO - Telegram listener thread started
+2026-02-26 12:52:06,976 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-26 12:52:06,977 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-26 12:52:07,178 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-26 12:52:08,426 - telegram_listener - INFO - Telegram status: Requesting verification code...
+2026-02-26 12:52:08,624 - telegram_listener - INFO - Telegram status: Waiting for verification code...
+2026-02-26 12:52:08,624 - telegram_listener - INFO - Code sent to Telegram. Waiting for user input...
+2026-02-26 12:52:28,832 - __main__ - INFO - OTP received from user
+2026-02-26 12:52:28,907 - telegram_listener - INFO - Telegram status: Verifying code...
+2026-02-26 12:52:29,918 - telegram_listener - INFO - Successfully signed in with code
+2026-02-26 12:52:30,187 - telegram_listener - INFO - Authenticated as: Lindokuhle (@None)
+2026-02-26 12:52:30,216 - telegram_listener - INFO - Telegram status: Authenticated as Lindokuhle
+2026-02-26 12:52:30,247 - telegram_listener - INFO - Telegram status: Finding channel Insight.li Critical Alerts...
+2026-02-26 12:52:30,247 - telegram_listener - ERROR - Error getting channel 'Insight.li Critical Alerts': Cannot find any entity corresponding to "Insight.li Critical Alerts"
+2026-02-26 12:52:30,285 - telegram_listener - INFO - Telegram status: Channel error: Cannot find any entity corresponding to "Insight.li Critical Alerts"
+2026-02-26 12:52:30,327 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-26 12:52:30,328 - telegram_listener - INFO - Telegram client stopped
+2026-02-26 12:52:30,328 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-26 12:56:59,724 - main - INFO - ============================================================
+2026-02-26 12:56:59,724 - main - INFO - Battery Alert Manager Starting
+2026-02-26 12:56:59,724 - main - INFO - ============================================================
+2026-02-26 12:56:59,725 - db - INFO - Database schema initialized successfully
+2026-02-26 12:56:59,726 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 12:57:00,482 - ui - INFO - UI initialized
+2026-02-26 12:57:00,635 - main - INFO - Application initialized successfully
+2026-02-26 12:57:00,650 - db - INFO - Created new alert 22: TESTSN - Fault1
+2026-02-26 12:57:04,698 - db - INFO - Updated status for alert 22 to CLEARED
+2026-02-26 13:03:51,096 - __main__ - INFO - ============================================================
+2026-02-26 13:03:51,096 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 13:03:51,096 - __main__ - INFO - ============================================================
+2026-02-26 13:03:51,098 - db - INFO - Database schema initialized successfully
+2026-02-26 13:03:51,099 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 13:03:51,811 - ui - INFO - UI initialized
+2026-02-26 13:03:51,995 - __main__ - INFO - Application initialized successfully
+2026-02-26 13:03:51,996 - __main__ - INFO - Starting UI main loop
+2026-02-26 13:14:28,168 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-26 13:14:28,181 - telegram_listener - INFO - Telegram listener thread started
+2026-02-26 13:14:28,442 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-26 13:14:28,442 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-26 13:14:28,623 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-26 13:14:30,553 - telegram_listener - INFO - Authenticated as: Lindokuhle (@None)
+2026-02-26 13:14:30,582 - telegram_listener - INFO - Telegram status: Authenticated as Lindokuhle
+2026-02-26 13:14:30,606 - telegram_listener - INFO - Telegram status: Finding channel Insight.li Critical Alerts...
+2026-02-26 13:14:30,607 - telegram_listener - ERROR - Error getting channel 'Insight.li Critical Alerts': Cannot find any entity corresponding to "Insight.li Critical Alerts"
+2026-02-26 13:14:30,628 - telegram_listener - INFO - Telegram status: Channel error: Cannot find any entity corresponding to "Insight.li Critical Alerts"
+2026-02-26 13:14:30,645 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-26 13:14:30,646 - telegram_listener - INFO - Telegram client stopped
+2026-02-26 13:14:30,647 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-26 13:16:25,701 - __main__ - INFO - ============================================================
+2026-02-26 13:16:25,702 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 13:16:25,702 - __main__ - INFO - ============================================================
+2026-02-26 13:16:25,705 - db - INFO - Database schema initialized successfully
+2026-02-26 13:16:25,705 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 13:16:26,732 - ui - INFO - UI initialized
+2026-02-26 13:16:27,033 - __main__ - INFO - Application initialized successfully
+2026-02-26 13:16:27,033 - __main__ - INFO - Starting UI main loop
+2026-02-26 13:17:30,010 - telegram_listener - INFO - Telegram configured for channel: Insight.li Critical Alerts
+2026-02-26 13:17:30,012 - telegram_listener - INFO - Telegram listener thread started
+2026-02-26 13:17:30,159 - telegram_listener - INFO - Telegram status: Connecting to Telegram...
+2026-02-26 13:17:30,160 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-02-26 13:17:30,456 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-02-26 13:17:31,858 - telegram_listener - INFO - Authenticated as: Lindokuhle (@None)
+2026-02-26 13:17:31,876 - telegram_listener - INFO - Telegram status: Authenticated as Lindokuhle
+2026-02-26 13:17:31,895 - telegram_listener - INFO - Telegram status: Finding channel Insight.li Critical Alerts...
+2026-02-26 13:17:31,895 - telegram_listener - ERROR - Error getting channel 'Insight.li Critical Alerts': Cannot find any entity corresponding to "Insight.li Critical Alerts"
+2026-02-26 13:17:31,920 - telegram_listener - INFO - Telegram status: Channel error: Cannot find channel 'Insight.li Critical Alerts'. Make sure you specify the exact username (without spaces) or include the @, or use the channel ID.
+2026-02-26 13:17:31,947 - telegram_listener - INFO - Telegram status: Disconnected
+2026-02-26 13:17:31,948 - telegram_listener - INFO - Telegram client stopped
+2026-02-26 13:17:31,949 - telegram_listener - INFO - Telegram thread worker stopped
+2026-02-26 13:53:56,451 - __main__ - INFO - Application shutting down...
+2026-02-26 13:53:56,481 - telegram_listener - ERROR - Error stopping Telegram: There is no current event loop in thread 'MainThread'.
+2026-02-26 13:53:56,496 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-26 13:53:56,499 - db - INFO - Database connection closed
+2026-02-26 13:53:56,500 - __main__ - INFO - Shutdown complete
+2026-02-26 13:53:56,791 - telethon.network.connection.connection - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+    self._send(await self._send_queue.get())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-26 13:53:56,808 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task cancelling name='Task-2' coro=<Connection._send_loop() running at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:332> wait_for=<Future cancelled>>
+2026-02-26 13:53:56,809 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py:334> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-26 13:53:56,810 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:452> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-02-26 13:53:56,810 - telethon.network.mtprotosender - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+    body = await self._connection.recv()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+    result, err = await self._recv_queue.get()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-26 13:53:56,829 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\network\mtprotosender.py:503> wait_for=<Future cancelled>>
+2026-02-26 13:53:56,830 - telethon.client.updates - ERROR - Fatal error handling updates (this is a bug in Telethon v1.42.0, please report it)
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 186, in get
+    await getter
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py", line 454, in _update_loop
+    updates = await asyncio.wait_for(self._updates_queue.get(), deadline_delay)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\queues.py", line 188, in get
+    getter.cancel()  # Just in case getter is not done yet.
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-02-26 13:53:56,847 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<UpdateMethods._update_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:258> wait_for=<Future cancelled>>
+2026-02-26 13:53:56,848 - asyncio - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<UpdateMethods._keepalive_loop() done, defined at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\lindo\AppData\Local\Programs\Python\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-02-26 14:53:26,814 - __main__ - INFO - ============================================================
+2026-02-26 14:53:26,818 - __main__ - INFO - Battery Alert Manager Starting
+2026-02-26 14:53:26,819 - __main__ - INFO - ============================================================
+2026-02-26 14:53:26,844 - db - INFO - Database schema initialized successfully
+2026-02-26 14:53:26,845 - db - INFO - Database initialized at battery_alerts.db
+2026-02-26 14:53:28,412 - ui - INFO - UI initialized
+2026-02-26 14:53:28,535 - __main__ - INFO - Application initialized successfully
+2026-02-26 14:53:28,536 - __main__ - INFO - Starting UI main loop
+2026-02-26 14:53:36,039 - __main__ - INFO - Application shutting down...
+2026-02-26 14:53:36,044 - telegram_listener - INFO - Telegram status: Stopped
+2026-02-26 14:53:36,044 - db - INFO - Database connection closed
+2026-02-26 14:53:36,045 - __main__ - INFO - Shutdown complete
+2026-03-02 08:18:25,619 - __main__ - INFO - ============================================================
+2026-03-02 08:18:25,620 - __main__ - INFO - Battery Alert Manager Starting
+2026-03-02 08:18:25,620 - __main__ - INFO - ============================================================
+2026-03-02 08:18:25,636 - db - INFO - Database schema initialized successfully
+2026-03-02 08:18:25,637 - db - INFO - Database initialized at battery_alerts.db
+2026-03-02 08:18:27,140 - ui - INFO - UI initialized
+2026-03-02 08:18:27,321 - __main__ - INFO - Application initialized successfully
+2026-03-02 08:18:27,321 - __main__ - INFO - Starting UI main loop
+2026-03-02 08:25:45,874 - db - INFO - Created new alert 23: 12C12B20001 - Cell Voltage below 2.55V!
+2026-03-02 08:26:34,656 - db - INFO - Updated alert 23: 12C12B20001 - Cell Voltage below 2.55V! (Count: 2, Priority: High)
+2026-03-02 14:00:49,964 - __main__ - INFO - ============================================================
+2026-03-02 14:00:49,965 - __main__ - INFO - Battery Alert Manager Starting
+2026-03-02 14:00:49,965 - __main__ - INFO - ============================================================
+2026-03-02 14:00:49,973 - db - INFO - Database schema initialized successfully
+2026-03-02 14:00:49,973 - db - INFO - Database initialized at battery_alerts.db
+2026-03-02 14:00:51,200 - ui - INFO - UI initialized
+2026-03-02 14:00:51,475 - __main__ - INFO - Application initialized successfully
+2026-03-02 14:00:51,477 - __main__ - INFO - Starting UI main loop
+2026-03-02 14:07:08,082 - __main__ - INFO - ============================================================
+2026-03-02 14:07:08,084 - __main__ - INFO - Battery Alert Manager Starting
+2026-03-02 14:07:08,085 - __main__ - INFO - ============================================================
+2026-03-02 14:07:08,115 - db - INFO - Database schema initialized successfully
+2026-03-02 14:07:08,116 - db - INFO - Database initialized at battery_alerts.db
+2026-03-02 14:07:08,848 - ui - INFO - UI initialized
+2026-03-02 14:07:09,033 - __main__ - INFO - Application initialized successfully
+2026-03-02 14:07:09,033 - __main__ - INFO - Starting UI main loop
