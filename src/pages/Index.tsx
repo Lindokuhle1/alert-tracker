@@ -8,7 +8,7 @@ import ApiConfigPanel from "@/components/ApiConfigPanel";
 import FleetAnalytics from "@/components/FleetAnalytics";
 import { Zap } from "lucide-react";
 
-const REFRESH_INTERVAL = 60_000;
+const REFRESH_INTERVAL = 6000_000;
 const STORAGE_KEY = "fleet-api-config";
 
 function loadStoredConfig(): ApiConfig | null {

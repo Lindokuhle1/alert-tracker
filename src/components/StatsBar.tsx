@@ -28,7 +28,7 @@ export default function StatsBar({ devices, lastRefresh }: StatsBarProps) {
       ))}
       {lastRefresh && (
         <span className="ml-auto text-xs text-muted-foreground">
-          Auto-refresh: 60s
+          Auto-refresh: 10m
         </span>
       )}
     </div>
