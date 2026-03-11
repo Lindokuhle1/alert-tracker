@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 10%;
+    --foreground: 210 20% 90%;
+
+    --card: 220 18% 14%;
+    --card-foreground: 210 20% 90%;
+
+    --popover: 220 18% 14%;
+    --popover-foreground: 210 20% 90%;
+
+    --primary: 152 60% 48%;
+    --primary-foreground: 220 20% 10%;
+
+    --secondary: 220 16% 20%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 220 14% 18%;
+    --muted-foreground: 215 15% 55%;
+
+    --accent: 200 70% 50%;
+    --accent-foreground: 220 20% 10%;
+
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 14% 22%;
+    --input: 220 14% 22%;
+    --ring: 152 60% 48%;
+
+    --radius: 0.5rem;
+
+    --online: 152 60% 48%;
+    --offline: 0 65% 55%;
+
+    --sidebar-background: 220 18% 12%;
+    --sidebar-foreground: 210 20% 90%;
+    --sidebar-primary: 152 60% 48%;
+    --sidebar-primary-foreground: 220 20% 10%;
+    --sidebar-accent: 220 14% 18%;
+    --sidebar-accent-foreground: 210 20% 85%;
+    --sidebar-border: 220 14% 22%;
+    --sidebar-ring: 152 60% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .status-online {
+    @apply bg-[hsl(var(--online))];
+  }
+  .status-offline {
+    @apply bg-[hsl(var(--offline))];
+  }
+  .status-dot {
+    @apply w-2.5 h-2.5 rounded-full;
+  }
+  .glow-green {
+    box-shadow: 0 0 8px hsl(152 60% 48% / 0.4);
+  }
+}
